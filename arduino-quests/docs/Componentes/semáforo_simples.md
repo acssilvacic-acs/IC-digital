@@ -2,7 +2,7 @@
 
 | Componentes | Modelo / Valor | Quantidade | Função no circuito  |
 | :--- | :--- | :--- | :--- |
-| **Arduino Uno** | R3 | 1 | É o "cérebro" do semáforo. Ele roda o código e controla o momento exato de ligar e desligar cada luz. |
+| **Arduino Uno** | R3 | 1 | Controlar o tempo do sistema e mudar os sinais de saída conforme o que está programado no código. |
 | **LED Vermelho** | Comum (5mm) | 1 | Luz de "PARE". Ligado na porta digital 11. |
 | **LED Amarelo** | Comum (5mm) | 1 | Luz de "ATENÇÃO". Ligado na porta digital 10. |
 | **LED Verde** | Comum (5mm) | 1 | Luz de "SIGA". Ligado na porta digital 9. |
