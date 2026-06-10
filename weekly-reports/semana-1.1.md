@@ -1,7 +1,7 @@
 # Semana 1.1 — Introdução ao Arduino, GitHub e simulação  
 
 ## 1. Objetivo da semana 
-Descrever o objetivo técnico da atividade. 
+O objetivo dessa semana foi aprender como o hardware e o software se comunicam usando o Arduino. A gente configurou pinos digitais de saída para fazer um LED piscar de três formas diferentes, criamos funções no código e usamos o GitHub para controle de versão.
 ## 2. O que foi estudado 
 Listar os principais conteúdos estudados na semana. 
 Exemplo: 
