@@ -1,29 +1,30 @@
 # Semana 1.1 — Introdução ao Arduino, GitHub e simulação  
 
 ## 1. Objetivo da semana 
-O objetivo dessa semana foi aprender como o hardware e o software se comunicam usando o Arduino. A gente configurou pinos digitais de saída para fazer um LED piscar de três formas diferentes, criamos funções no código e usamos o GitHub para controle de versão.
+O objetivo dessa semana foi aprender como o hardware e o software se comunicam usando o Arduino. A gente configurou pinos digitais de saída para fazer um LED piscar de três formas diferentes, criamos funções no código e usamos o GitHub para realizar os registros.
 ## 2. O que foi estudado 
-Listar os principais conteúdos estudados na semana. 
-Exemplo: 
-- Uso de pinos digitais. 
-- Funcionamento de LED e resistor. 
-- Estrutura básica de um programa Arduino. 
+ 
+- Uso e configuração de pinos digitais do Arduino. 
+- Entendemos como funcionam o LED e o resistor de limitação de corrente. 
+- Estrutura básica de um programa Arduino setup() e loop().
 - Simulação no Tinkercad. 
-- Registro da atividade no GitHub. 
+- Registro da atividade no GitHub.
+-  
 ## 3. O que eu aprendi 
-Cada estudante deve escrever, com suas próprias palavras, o que aprendeu. 
+
 ### Estudante 1 
-Texto individual do estudante. 
+Aprendi como estruturar o código do Arduino, também entendi a importância de usar resistores para não queimar o LED e como a função ajuda a não repetir blocos de código idênticos.
+
 ### Estudante 2 
 Texto individual do estudante. 
-### Estudante 3 
-Texto individual do estudante. 
+ 
 ## 4. Explicação técnica da atividade 
-Explicar como o circuito funciona, como o código funciona e qual é a relação entre hardware e software. 
+O software define o comportamento dos pinos físicos do hardware. Quando o código manda acender o LED, o processador muda a tensão no pino correspondente, configurar um pino como OUTPUT faz o microcontrolador controlar componentes externos, como o LED, a função setup() executa uma vez, no início, para as configurações iniciais já a função loop() executa mais de uma vez.
 ## 5. Circuito 
 ![teste1](../media/imagem/imagem_semana-1.1.png) 
+
 ## 6. Componentes utilizados 
-Listar componentes, valores e função no circuito. 
+
 | Componente | Modelo / Valor | Quantidade | Função no Circuito |
 | :--- | :--- | :--- | :--- |
 | **Arduino Uno** | R3 | 1 | Executar o código de programação e fornecer a tensão necessária para alternar os padrões de pisca do LED. |
@@ -34,14 +35,16 @@ Listar componentes, valores e função no circuito.
 
 ## 7. Código 
 Indicar o arquivo principal do firmware e explicar a lógica usada. 
+
 ## 8. Testes realizados 
 Descrever como o teste foi executado. 
+
 ## 9. Resultados obtidos 
 Apresentar leituras, imagens, vídeo curto, tabela ou observações. 
 ## 10. Problemas encontrados 
-Indicar erros de montagem, código, alimentação, ruído, leitura incorreta ou instabilidade. 
+O led não estava em série com o resistor
 ## 11. Correções realizadas 
-Explicar como os problemas foram corrigidos. 
+Mudou o led de lugar para ele ficar em serie com o resistor
 ## 12. Relação com aplicações do dia a dia 
 Explicar como o conceito estudado na semana pode ser usado em uma solução real. 
 ## 13. Critério de aceite 
