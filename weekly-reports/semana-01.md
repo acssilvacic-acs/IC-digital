@@ -26,8 +26,8 @@ Inserir imagem do circuito no Tinkercad ou foto do hardware real.
 Listar componentes, valores e função no circuito. 
 | Componente | Valor/modelo | Função no circuito | 
 |---|---|---| 
-| LED | Vermelho | Indicar saída digital | 
-| Resistor | 220 Ω | Limitar corrente do LED |
+| Arduino Uno | R3 | Microcontrolador responsável por processar o código e controlar as saídas. | 
+| LED | Vermelho | Limitar corrente do LED |
 ## 7. Código 
 Indicar o arquivo principal do firmware e explicar a lógica usada. 
 ## 8. Testes realizados 
