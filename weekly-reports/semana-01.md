@@ -26,7 +26,7 @@ Inserir imagem do circuito no Tinkercad ou foto do hardware real.
 Listar componentes, valores e função no circuito. 
 | Componente | Modelo / Valor | Quantidade | Função no Circuito |
 | :--- | :--- | :--- | :--- |
-| **Arduino Uno** | R3 | 1 | Executar o código de programação e fornecer a tensão necessária para alternar os padrões de pisca do LED[cite: 127]. |
+| **Arduino Uno** | R3 | 1 | Executar o código de programação e fornecer a tensão necessária para alternar os padrões de pisca do LED. |
 | **LED** | Vermelho (ou cor padrão) | 1 | Sinalizar visualmente as três sequências de teste programadas (lento, rápido e personalizado) |
 | **Resistor** | $220\ \Omega$ | 1 | Limitar a corrente elétrica para proteger o LED de sobrecarga quando a porta digital for acionada. |
 | **Protoboard** | 400 pontos | 1 | Servir como base física para conectar eletricamente o LED e o resistor de forma rápida e segura. |
