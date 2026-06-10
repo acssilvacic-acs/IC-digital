@@ -1,36 +1,36 @@
-# Semana 1.1 — Introdução ao Arduino, GitHub e simulação  
+# Semana 1.2 — Protoboard virtual, resistores e LEDs externos  
 
 ## 1. Objetivo da semana 
-Descrever o objetivo técnico da atividade. 
+Montar um semáforo simples utilizando somente uma protoboard, LEDs, resistoes e Arduino
+ 
 ## 2. O que foi estudado 
-Listar os principais conteúdos estudados na semana. 
-Exemplo: 
-- Uso de pinos digitais. 
-- Funcionamento de LED e resistor. 
-- Estrutura básica de um programa Arduino. 
-- Simulação no Tinkercad. 
-- Registro da atividade no GitHub. 
+- Pinos digitais do arduino
+- Funcionamento de LED e resistor e por que o LED depende de um resistor para funcionar corretamente.
+- Estrutura básica de um programa no Arduino.
+- Funcionamento da protoboard.
+
 ## 3. O que eu aprendi 
 Cada estudante deve escrever, com suas próprias palavras, o que aprendeu. 
 ### Estudante 1 
 Texto individual do estudante. 
 ### Estudante 2 
 Texto individual do estudante. 
-### Estudante 3 
-Texto individual do estudante. 
+ 
 ## 4. Explicação técnica da atividade 
 Explicar como o circuito funciona, como o código funciona e qual é a relação entre hardware e software. 
+
 ## 5. Circuito 
-![teste1](../media/imagem/imagem_semana-1.1.png) 
-## 6. Componentes utilizados 
-Listar componentes, valores e função no circuito. 
-| Componente | Modelo / Valor | Quantidade | Função no Circuito |
+![teste1](../media/imagem/imagem_semana-1.1.png)  
+
+| Componentes | Modelo / Valor | Quantidade | Função no circuito  |
 | :--- | :--- | :--- | :--- |
-| **Arduino Uno** | R3 | 1 | Executar o código de programação e fornecer a tensão necessária para alternar os padrões de pisca do LED. |
-| **LED** | Vermelho (ou cor padrão) | 1 | Sinalizar visualmente as três sequências de teste programadas (lento, rápido e personalizado) |
-| **Resistor** | $220\ \Omega$ | 1 | Limitar a corrente elétrica para proteger o LED de sobrecarga quando a porta digital for acionada. |
-| **Protoboard** | 400 pontos | 1 | Servir como base física para conectar eletricamente o LED e o resistor de forma rápida e segura. |
-| **Fios (Jumpers)** | Macho-Macho | 2 |Realizar a ligação da porta digital escolhida para o resistor/LED e fechar o circuito retornando ao pino GND. |
+| **Arduino Uno** | R3 | 1 | Controlar o tempo do sistema e mudar os sinais de saída conforme o que está programado no código. |
+| **LED Vermelho** | Comum (5mm) | 1 | Luz de "PARE". Ligado na porta digital 11. |
+| **LED Amarelo** | Comum (5mm) | 1 | Luz de "ATENÇÃO". Ligado na porta digital 10. |
+| **LED Verde** | Comum (5mm) | 1 | Luz de "SIGA". Ligado na porta digital 9. |
+| **Resistores** | $330\ \Omega$ | 3 | Servem para proteger os LEDs. Eles seguram o excesso de energia para as luzes não queimarem. |
+| **Protoboard** | 400 pontos | 1 | A placa de ensaio onde encaixamos as peças e fazemos as ligações elétricas sem precisar de solda. |
+| **Fios (Jumpers)** | Macho-Macho | 4 | Fios coloridos para conectar tudo. Usamos 3 para os sinais das portas 9, 10 e 11, e 1 preto para ligar o negativo (GND). |
 
 ## 7. Código 
 Indicar o arquivo principal do firmware e explicar a lógica usada. 
@@ -39,9 +39,19 @@ Descrever como o teste foi executado.
 ## 9. Resultados obtidos 
 Apresentar leituras, imagens, vídeo curto, tabela ou observações. 
 ## 10. Problemas encontrados 
-Indicar erros de montagem, código, alimentação, ruído, leitura incorreta ou instabilidade. 
+
+Durante a contrução do circuito, que foi realizada paralelo aos estudos sobre os componentes, foi encontrado um erro na montagem, como pode ser visto na imagem abaixo:
+
+<img width="953" height="866" alt="image" src="https://github.com/user-attachments/assets/de152ed9-7b87-4d6d-874b-a8e773ce60ee" />
+
+Inicialmente, acreitávamos que a alimentação do circuito seria realizada somente pelo pino 5V do Arduino, mas, ao mergulhar mais fundo nos estudos sobres os pinos digitais, descobrimos que a alimentação seria feita pelos pinos digitais onde os LEDs estavam conectados, e que manter a alimentação pelo pino V5 deixaria todos os LEDs ligados o tempo todo, já que estariam recebendo tensão a todo momento, o que resultaria em erro, visto que a intenção era alternar os status de "ligado" e "desligado" dos LEDs, algo que seria feito através da Lógica do nosso código mais tarde.
+
 ## 11. Correções realizadas 
-Explicar como os problemas foram corrigidos. 
+
+Para corrigir esse erro, como pode ser visto na imagem abaixo, removemos a alimentação realizada através do pino 5V, deixando somente os pinos digitais ~9, ~10 e ~11 como os responsáveis por levar tenão aos LEDs. 
+
+<img width="701" height="597" alt="image" src="https://github.com/user-attachments/assets/3045a97f-f4b9-41c1-a096-b550f2941f0b" />
+
 ## 12. Relação com aplicações do dia a dia 
 Explicar como o conceito estudado na semana pode ser usado em uma solução real. 
 ## 13. Critério de aceite 
