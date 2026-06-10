@@ -21,7 +21,7 @@ Texto individual do estudante.
 ## 4. Explicação técnica da atividade 
 Explicar como o circuito funciona, como o código funciona e qual é a relação entre hardware e software. 
 ## 5. Circuito 
-Inserir imagem do circuito no Tinkercad ou foto do hardware real. 
+![teste1](../media/imagem/imagem_semana-1.1.png) 
 ## 6. Componentes utilizados 
 Listar componentes, valores e função no circuito. 
 | Componente | Modelo / Valor | Quantidade | Função no Circuito |
