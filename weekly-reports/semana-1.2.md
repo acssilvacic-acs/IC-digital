@@ -20,7 +20,6 @@ Texto individual do estudante.
 Explicar como o circuito funciona, como o código funciona e qual é a relação entre hardware e software. 
 
 ## 5. Circuito 
-![teste1](../media/imagem/imagem_semana-1.1.png)  
 
 | Componentes | Modelo / Valor | Quantidade | Função no circuito  |
 | :--- | :--- | :--- | :--- |
