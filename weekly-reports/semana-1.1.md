@@ -48,9 +48,9 @@ O circuito respondeu exatamente como a gente esperava. O LED execultou os tempos
 https://github.com/user-attachments/assets/6d4a25db-227e-438c-a5c7-17cebac246bc
 
 ## 10. Problemas encontrados 
-O LED não estava em série com o resistor.
+O LED não estava em série com o resistor, que ocasionava ele não responder aos comandos.
 ## 11. Correções realizadas 
-O LED foi reposicionado em série com o resistor.
+O LED foi reposicionado em série com o resistor, logo ele funcionou como era esperado.
 ## 12. Relação com aplicações do dia a dia 
 Algo similar acontece na aviação, helicópteros utilizam um controlador para gerenciar as luzes externas obrigatórias, permitindo que pilotos enxerguem helicópteros à noite.
 ## 13. Critério de aceite 
