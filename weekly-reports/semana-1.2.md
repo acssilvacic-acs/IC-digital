@@ -10,7 +10,7 @@ Montar um semáforo simples utilizando somente uma protoboard, LEDs, resistoes e
 - Funcionamento da protoboard.
 
 ## 3. O que eu aprendi 
-Cada estudante deve escrever, com suas próprias palavras, o que aprendeu. 
+ 
 ### Estudante 1 
 Texto individual do estudante. 
 ### Estudante 2 
