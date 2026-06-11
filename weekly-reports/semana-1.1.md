@@ -49,8 +49,14 @@ https://github.com/user-attachments/assets/6d4a25db-227e-438c-a5c7-17cebac246bc
 
 ## 10. Problemas encontrados 
 O LED não estava em série com o resistor, que ocasionava ele não responder aos comandos.
+
+<img width="968" height="716" alt="050F2494-2B44-49E2-B3A9-4E75DCF759F2_1_201_a" src="https://github.com/user-attachments/assets/dd46d9cf-31b5-463f-8bd8-193e4d3503b1" />
+
 ## 11. Correções realizadas 
 O LED foi reposicionado em série com o resistor, logo ele funcionou como era esperado.
+
+<img width="2227" height="1218" alt="47639101-CCDD-4818-B6D2-9A0104B2F4C4_1_201_a" src="https://github.com/user-attachments/assets/ea8ad8c0-3f32-4995-9e1e-3ab057fbfcf8" />
+
 ## 12. Relação com aplicações do dia a dia 
 Algo similar acontece na aviação, helicópteros utilizam um controlador para gerenciar as luzes externas obrigatórias, permitindo que pilotos enxerguem helicópteros à noite.
 ## 13. Critério de aceite 
