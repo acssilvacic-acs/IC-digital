@@ -37,8 +37,7 @@ O software define o comportamento dos pinos físicos do hardware. Quando o códi
 Indicar o arquivo principal do firmware e explicar a lógica usada. 
 
 ## 8. Testes realizados 
-Descrever como o teste foi executado. 
-
+Os testes foram feitos no Tinkercad. A gente colocou o código com a função piscarLed, clicou em "Iniciar Simulação" e observou o LED para ver se ele seguia os três tempos propostos: lento, rápido e personalizado.
 ## 9. Resultados obtidos 
 Apresentar leituras, imagens, vídeo curto, tabela ou observações. 
 ## 10. Problemas encontrados 
@@ -48,6 +47,6 @@ O LED foi reposicionado em série com o resistor.
 ## 12. Relação com aplicações do dia a dia 
 Algo similar acontece na aviação, helicópteros utilizam um controlador para gerenciar as luzes externas obrigatórias, permitindo que outros pilotos os enxerguem à noite. Eles usam a mesma lógica de programação.
 ## 13. Critério de aceite 
-Informar se a entrega passou ou não passou no critério técnico definido. 
+Ele passou nos critérios definidos, a entrega atende todos os requisitos: o LED faz os três padrões pedidos (lento, rápido e personalizado), e a gente adaptou o código usando uma função com parâmetros, que era obrigatório.
 ## 14. Link da simulação, vídeo ou evidência 
 Link da simulação no tinkercad: https://www.tinkercad.com/things/lckZMCQX1at-semana-11-led-com-3-efeitos/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=RTjBNf2qVtlleUC3pr_FZLy9RC8K6l82iDFtoU6p9ZI
