@@ -13,7 +13,7 @@ O objetivo dessa semana foi aprender como o hardware e o software se comunicam u
 ## 3. O que eu aprendi 
 
 ### Estudante 1 
-Aprendi como estruturar o código do Arduino, também entendi a importância de usar resistores para não queimar o LED e como a função ajuda a não repetir blocos de código idênticos.
+Aprendi como estruturar o código do Arduino, também entendi a importância de usar resistores para não queimar o LED .
 
 ### Estudante 2 
 Texto individual do estudante. 
@@ -42,9 +42,9 @@ Descrever como o teste foi executado.
 ## 9. Resultados obtidos 
 Apresentar leituras, imagens, vídeo curto, tabela ou observações. 
 ## 10. Problemas encontrados 
-O led não estava em série com o resistor
+O LED não estava em série com o resistor.
 ## 11. Correções realizadas 
-Mudou o led de lugar para ele ficar em serie com o resistor
+O LED foi reposicionado em série com o resistor.
 ## 12. Relação com aplicações do dia a dia 
 Explicar como o conceito estudado na semana pode ser usado em uma solução real. 
 ## 13. Critério de aceite 
