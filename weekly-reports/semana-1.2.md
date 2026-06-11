@@ -13,7 +13,7 @@ Montar um semáforo simples utilizando somente uma protoboard, LEDs, resistoes e
  
 ### Estudante 1 
 Texto individual do estudante. 
-### Estudante 2 
+### Estudante 2: Ana Clara
 Desenvolvendo a parte do código, pude perceber como funciona um semáforo, no Arduino, a gente configurou os pinos como saída com o pinMode e controlou a energia com o digitalWrite. O ciclo acontece na sequência, usando o delay para definir o tempo que cada cor fica acesa, dentro do loop infinito
 
  
