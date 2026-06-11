@@ -34,7 +34,7 @@ Explicar como o circuito funciona, como o código funciona e qual é a relação
 ## 7. Código 
 A lógica utilizada para o desenvolvimento do funcionamento do semáforofoi a seguinte: O programa vai lendo as linhas de cima para baixo, dentro do loop(), e fica repetindo esse ciclo sem parar. Quando a gente liga uma cor com o HIGH, o código já desliga as outras duas com o LOW. Já o delay() dá uma pausa em tudo por alguns segundos (5 segundos para o verde e o vermelho, e 2 para o amarelo) antes de passar para o próximo comando. Assim o semáforo consegue manter cada cor acesa no tempo certo.
 
-Código: firmware/src/semana-1.2.ino
+Código: [Clique aqui para ver o código (semana-1.2.ino)](../firmware/src/semana-1.2.ino)
  
 ## 8. Testes realizados 
 Descrever como o teste foi executado. 
