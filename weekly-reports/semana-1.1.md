@@ -50,5 +50,4 @@ Algo similar acontece na aviação, helicópteros utilizam um controlador para g
 ## 13. Critério de aceite 
 Informar se a entrega passou ou não passou no critério técnico definido. 
 ## 14. Link da simulação, vídeo ou evidência 
-Inserir link do Tinkercad, vídeo, imagem, commit ou pasta do GitHub.
-
+Link da simulação no tinkercad: https://www.tinkercad.com/things/lckZMCQX1at-semana-11-led-com-3-efeitos/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=RTjBNf2qVtlleUC3pr_FZLy9RC8K6l82iDFtoU6p9ZI
