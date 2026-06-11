@@ -9,7 +9,7 @@ O objetivo dessa semana foi aprender como o hardware e o software se comunicam u
 - Estrutura básica de um programa Arduino setup() e loop().
 - Simulação no Tinkercad. 
 - Registro da atividade no GitHub.
--  
+  
 ## 3. O que eu aprendi 
 
 ### Estudante 1 
