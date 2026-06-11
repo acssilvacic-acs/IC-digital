@@ -39,7 +39,10 @@ Indicar o arquivo principal do firmware e explicar a lógica usada.
 ## 8. Testes realizados 
 Os testes foram feitos no Tinkercad. A gente colocou o código com a função piscarLed, clicou em "Iniciar Simulação" e observou o LED para ver se ele seguia os três tempos propostos: lento, rápido e personalizado.
 ## 9. Resultados obtidos 
-Apresentar leituras, imagens, vídeo curto, tabela ou observações. 
+Simulação: 
+https://github.com/user-attachments/assets/5347a095-7d30-4ee6-9345-63bc7ca0b5e5
+
+
 ## 10. Problemas encontrados 
 O LED não estava em série com o resistor.
 ## 11. Correções realizadas 
