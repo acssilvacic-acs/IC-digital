@@ -41,6 +41,11 @@ Código: [Clique aqui para ver o código (semana-1.2.ino)](../firmware/src/seman
 Descrever como o teste foi executado. 
 ## 9. Resultados obtidos 
 Apresentar leituras, imagens, vídeo curto, tabela ou observações. 
+
+
+https://github.com/user-attachments/assets/d9bc92a3-cecf-4fcb-b59b-ba29078a3c9a
+
+
 ## 10. Problemas encontrados 
 
 Durante a contrução do circuito, que foi realizada paralelo aos estudos sobre os componentes, foi encontrado um erro na montagem, como pode ser visto na imagem abaixo:
