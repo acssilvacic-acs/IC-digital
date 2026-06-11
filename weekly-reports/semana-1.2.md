@@ -11,8 +11,11 @@ Montar um semáforo simples utilizando somente uma protoboard, LEDs, resistoes e
 
 ## 3. O que eu aprendi 
  
-### Estudante 1 
-Texto individual do estudante. 
+### Estudante 1: Thaissa 
+Montei um circuito de semáforo na protoboard com três LEDs (vermelho, amarelo e verde) cada um conectado a um pino digital do Arduino com PWM. Aprendi que cada LED precisa de um resistor em série para limitar a corrente e proteger o componente. Calculei o valor usando a fórmula R = (Vcc - Vf) / I, encontrando valores entre 300Ohm para os três LEDs, resultando em uma corrente de 10mA, corrente segura e com boa iluminação.
+Na montagem física, verifiquei o caminho elétrico completo de cada LED e prendi que na protoboard os furos se conectam internamente por coluna dentro de dois grupos separados pelo canal central e que componentes precisam estar na mesma coluna e no mesmo grupo para se conectar. O canal central não transmite sinal, então componentes em lados opostos dele não se comunicam.
+Após verificar os três LEDs e confirmar que todos os caminhos estavam corretos e o GND fechado, a montagem ficou pronta para receber o código.
+
 ### Estudante 2: Ana Clara
 Desenvolvendo a parte do código, pude perceber como funciona um semáforo, no Arduino, a gente configurou os pinos como saída com o pinMode e controlou a energia com o digitalWrite. O ciclo acontece na sequência, usando o delay para definir o tempo que cada cor fica acesa, dentro do loop infinito
 
