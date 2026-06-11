@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/712d8506-1456-48db-b1d5-d90a39b28f61
 # Semana 1.1 — Introdução ao Arduino, GitHub e simulação  
 
 ## 1. Objetivo da semana 
@@ -40,10 +42,7 @@ Indicar o arquivo principal do firmware e explicar a lógica usada.
 Os testes foram feitos no Tinkercad. A gente colocou o código com a função piscarLed, clicou em "Iniciar Simulação" e observou o LED para ver se ele seguia os três tempos propostos: lento, rápido e personalizado.
 ## 9. Resultados obtidos 
 Simulação:
-https://github.com/user-attachments/assets/bee4629e-d9e4-450b-a7bb-bbf78b8ba0f7
-
-
-
+https://github.com/user-attachments/assets/cc101b85-4476-4461-9f75-9b5162fd99fa
 ## 10. Problemas encontrados 
 O LED não estava em série com o resistor.
 ## 11. Correções realizadas 
