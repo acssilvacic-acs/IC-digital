@@ -47,7 +47,7 @@ O LED não estava em série com o resistor.
 ## 11. Correções realizadas 
 O LED foi reposicionado em série com o resistor.
 ## 12. Relação com aplicações do dia a dia 
-Algo similar acontece na aviação, helicópteros utilizam um controlador para gerenciar as luzes externas obrigatórias, permitindo que outros pilotos os enxerguem à noite. Eles usam a mesma lógica de programação.
+Algo similar acontece na aviação, helicópteros utilizam um controlador para gerenciar as luzes externas obrigatórias, permitindo que pilotos enxerguem helicópteros à noite.
 ## 13. Critério de aceite 
 Ele passou nos critérios definidos, a entrega atende todos os requisitos: o LED faz os três padrões pedidos (lento, rápido e personalizado), e a gente adaptou o código usando uma função com parâmetros, que era obrigatório.
 ## 14. Link da simulação, vídeo ou evidência 
