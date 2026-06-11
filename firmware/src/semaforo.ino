@@ -1,1 +1,36 @@
+// Identificação dos pinos
+// Define em quais portas digitais do Arduino os LEDs estão conectados
+const int ledVermelho = 11;
+const int ledAmarelo = 10;
+const int ledVerde = 9;
 
+// Este bloco roda apenas uma vez quando o Arduino é ligado
+void setup(){
+  // Configura os pinos dos LEDs como SAÍDAS (OUTPUT) para enviar energia a eles
+  pinMode(ledVermelho, OUTPUT);
+  pinMode(ledAmarelo, OUTPUT);
+  pinMode(ledVerde, OUTPUT);  
+}
+
+//  Ciclo de funcionamento do semáfaro
+// Este bloco fica repetindo os comandos em loop para sempre
+void loop() {
+  
+  //Sinal verde é ligado por 5 segundos e os demais permanece desligados 
+  digitalWrite(ledVerde, HIGH);
+  digitalWrite(ledAmarelo, LOW);
+  digitalWrite(ledVermelho, LOW);
+  delay(5000);
+  
+  //Sinal amarelo é ligado por 2 segundos e os demais permanece desligados 
+  digitalWrite(ledVerde, LOW);
+  digitalWrite(ledAmarelo, HIGH);
+  digitalWrite(ledVermelho, LOW);
+  delay(2000);
+  
+  //Sinal vermelho é ligado por 5 segundos e os demais permanece desligados 
+  digitalWrite(ledVerde, LOW);
+  digitalWrite(ledAmarelo, LOW);
+  digitalWrite(ledVermelho, HIGH);
+  delay(5000);
+}
