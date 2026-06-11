@@ -40,7 +40,10 @@ Indicar o arquivo principal do firmware e explicar a lógica usada.
 ## 8. Testes realizados 
 Os testes foram feitos no Tinkercad. A gente colocou o código com a função piscarLed, clicou em "Iniciar Simulação" e observou o LED para ver se ele seguia os três tempos propostos: lento, rápido e personalizado.
 ## 9. Resultados obtidos 
-Simulação:
+
+O circuito respondeu exatamente como a gente esperava. O LED execultou os tempos definidos na função, alternando entre o pisca lento, o pisca rápido e a pulsação personalizada, e depois recomeçou o ciclo.
+
+
 
 https://github.com/user-attachments/assets/6d4a25db-227e-438c-a5c7-17cebac246bc
 
