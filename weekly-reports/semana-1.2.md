@@ -34,16 +34,12 @@ Explicar como o circuito funciona, como o código funciona e qual é a relação
 ## 7. Código 
 A lógica utilizada para o desenvolvimento do funcionamento do semáforofoi a seguinte: O programa vai lendo as linhas de cima para baixo, dentro do loop(), e fica repetindo esse ciclo sem parar. Quando a gente liga uma cor com o HIGH, o código já desliga as outras duas com o LOW. Já o delay() dá uma pausa em tudo por alguns segundos (5 segundos para o verde e o vermelho, e 2 para o amarelo) antes de passar para o próximo comando. Assim o semáforo consegue manter cada cor acesa no tempo certo.
 
+
 // Identificação dos pinos
-
 // Define em quais portas digitais do Arduino os LEDs estão conectados
-
 const int ledVermelho = 11;
-
 const int ledAmarelo = 10;
-
 const int ledVerde = 9;
-
 
 // Este bloco roda apenas uma vez quando o Arduino é ligado
 void setup(){
@@ -53,29 +49,28 @@ void setup(){
   pinMode(ledVerde, OUTPUT);  
 }
 
-//  Ciclo de funcionamento do semáfaro
+// Ciclo de funcionamento do semáforo
 // Este bloco fica repetindo os comandos em loop para sempre
 void loop() {
   
-  //Sinal verde é ligado por 5 segundos e os demais permanece desligados 
+  // Sinal verde é ligado por 5 segundos e os demais permanecem desligados 
   digitalWrite(ledVerde, HIGH);
   digitalWrite(ledAmarelo, LOW);
   digitalWrite(ledVermelho, LOW);
   delay(5000);
   
-  //Sinal amarelo é ligado por 2 segundos e os demais permanece desligados 
+  // Sinal amarelo é ligado por 2 segundos e os demais permanecem desligados 
   digitalWrite(ledVerde, LOW);
   digitalWrite(ledAmarelo, HIGH);
   digitalWrite(ledVermelho, LOW);
   delay(2000);
   
-  //Sinal vermelho é ligado por 5 segundos e os demais permanece desligados 
+  // Sinal vermelho é ligado por 5 segundos e os demais permanecem desligados 
   digitalWrite(ledVerde, LOW);
   digitalWrite(ledAmarelo, LOW);
   digitalWrite(ledVermelho, HIGH);
   delay(5000);
-} 
-
+}
 ## 8. Testes realizados 
 Descrever como o teste foi executado. 
 ## 9. Resultados obtidos 
