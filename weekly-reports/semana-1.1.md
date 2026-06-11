@@ -13,11 +13,11 @@ O objetivo dessa semana foi aprender como o hardware e o software se comunicam u
   
 ## 3. O que eu aprendi 
 
-### Estudante 1 
-Aprendi como estruturar o código do Arduino, também entendi a importância de usar resistores para não queimar o LED .
+### Estudante 1: Thaissa
 
-### Estudante 2 
-Texto individual do estudante. 
+
+### Estudante 2: Ana Clara
+Aprendi como estruturar o código do Arduino, também entendi a importância de usar resistores para não queimar o LED .
  
 ## 4. Explicação técnica da atividade 
 O software define o comportamento dos pinos físicos do hardware. Quando o código manda acender o LED, o processador muda a tensão no pino correspondente, configurar um pino como OUTPUT faz o microcontrolador controlar componentes externos, como o LED, a função setup() executa uma vez, no início, para as configurações iniciais já a função loop() executa mais de uma vez.
