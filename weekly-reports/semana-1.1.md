@@ -46,7 +46,7 @@ O LED não estava em série com o resistor.
 ## 11. Correções realizadas 
 O LED foi reposicionado em série com o resistor.
 ## 12. Relação com aplicações do dia a dia 
-Explicar como o conceito estudado na semana pode ser usado em uma solução real. 
+Algo similar acontece na aviação, helicópteros utilizam um controlador para gerenciar as luzes externas obrigatórias, permitindo que outros pilotos os enxerguem à noite. Eles usam a mesma lógica de programação.
 ## 13. Critério de aceite 
 Informar se a entrega passou ou não passou no critério técnico definido. 
 ## 14. Link da simulação, vídeo ou evidência 
