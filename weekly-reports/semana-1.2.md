@@ -14,7 +14,8 @@ Cada estudante deve escrever, com suas próprias palavras, o que aprendeu.
 ### Estudante 1 
 Texto individual do estudante. 
 ### Estudante 2 
-Texto individual do estudante. 
+Desenvolvendo a parte do código, pude perceber como funciona um semáforo, no Arduino, a gente configurou os pinos como saída com o pinMode e controlou a energia com o digitalWrite. O ciclo acontece na sequência, usando o delay para definir o tempo que cada cor fica acesa, dentro do loop infinito
+
  
 ## 4. Explicação técnica da atividade 
 Explicar como o circuito funciona, como o código funciona e qual é a relação entre hardware e software. 
